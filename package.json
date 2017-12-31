@@ -1,0 +1,43 @@
+{
+  "name": "mm-user-auth-passwordless",
+  "version": "1.0.0",
+  "description": "User passwordless authentication extension for Matter In Motion",
+  "keywords": [
+    "matter",
+    "in",
+    "motion",
+    "mm",
+    "extension",
+    "resource",
+    "user",
+    "authentication",
+    "passwordless"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com> (http://2dubs.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mm-errors": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matter-in-motion/mm-user-auth-passwordless.git"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "mm-db-schema": "^1.0.0",
+    "mm-http": "^1.0.0",
+    "mm-mail": "^1.0.0",
+    "mm-nunjucks": "^1.0.0",
+    "mm-rethinkdb": "^1.0.0",
+    "mm-rethinkdb-schema": "^1.0.0",
+    "mm-rethinkdb-unique": "^1.0.0",
+    "mm-test": "^1.0.0",
+    "mm-user": "^1.0.0",
+    "nodemailer": "^4.4.1",
+    "nyc": "^11.4.1"
+  },
+  "scripts": {
+    "test": "nyc ava"
+  }
+}
