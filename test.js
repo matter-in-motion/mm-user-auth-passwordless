@@ -90,11 +90,11 @@ test.before(() => nodemailer
       </body>
       </html>
     `, err => {
-        if (err) {
-          return reject(err);
-        }
-        resolve();
-      })
+      if (err) {
+        return reject(err);
+      }
+      resolve();
+    })
   }))
 );
 

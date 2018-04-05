@@ -26,13 +26,12 @@
   "devDependencies": {
     "ava": "^0.23.0",
     "mm-db-schema": "^1.0.0",
-    "mm-http": "^1.0.0",
     "mm-mail": "^1.0.0",
     "mm-nunjucks": "^1.0.0",
     "mm-rethinkdb": "^1.0.0",
     "mm-rethinkdb-schema": "^1.0.0",
     "mm-rethinkdb-unique": "^1.0.0",
-    "mm-test": "^1.0.0",
+    "mm-test": "^3.0.0",
     "mm-user": "^1.0.0",
     "nodemailer": "^4.4.1",
     "nyc": "^11.4.1"
