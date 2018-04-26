@@ -7,8 +7,8 @@ This extension adds a **passwordless** method to authenticate users in your app.
 
 1. User enters email
 2. App sends a token to user's email
-3. User clicks on the link inside email
-4. App checks the token and returns an authentication token
+3. User clicks on the link inside the email
+4. The app checks the token and returns an authentication token
 5. Done!
 
 ## Usage
@@ -24,11 +24,11 @@ This extension adds a **passwordless** method to authenticate users in your app.
 
 First, you need to define user authentication provider as [here](https://github.com/matter-in-motion/mm/blob/master/docs/authentication.md)
 
-This extension adds settings to user settings
+This extension adds settings to the user settings.
 
 * **login**
   - expiresIn: '15 mins' — string, login token expiration time
-  - subject — string, login token email subject (Tip: if no subject defined `mail` will get a subject from the `<title>` tag in the email)
+  - subject — string, login token email subject (Tip: if no subject defined `mail` takes the subject from the `<title>` tag in the email)
   - template — string, the path to login token email template
 
 
@@ -36,12 +36,12 @@ This extension adds settings to user settings
 
 ### user.sendAuthentication
 
-Sends authentication token to email
+Sends authentication token to the email
 
 **Request**
 
 * **email** — user's email
-* data — additional data to be put in the token
+* data — additional data to add to the token
   - redirect — redirect URL. You can use it to return a user to the page he logged in from.
 
 **Response**
@@ -61,7 +61,7 @@ token from email
 
 * **token** — authentication token
 * **expires** — timestamp when token will expire
-* redirect — URL, where user logged in from
+* redirect — URL, where the user logged in from
 
 * `Unauthorized` error, code 4100 — when no user authenticated
 

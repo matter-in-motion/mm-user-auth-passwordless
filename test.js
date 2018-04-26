@@ -16,7 +16,6 @@ test.before(() => nodemailer
   .then(account => {
     app = createApp({
       extensions: [
-        'http',
         'user',
         'mail',
         'nunjucks',
