@@ -1,6 +1,6 @@
 {
   "name": "mm-user-auth-passwordless",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "User passwordless authentication extension for Matter In Motion",
   "keywords": [
     "matter",
